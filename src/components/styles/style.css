@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 231, 230);
+}
+
+.card {
+  width: 200px !important;
+  height: 250px !important;
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#purchase {
+  font-weight: bold;
+}
+
+#item-section {
+}
+
+#header {
+  background-color: beige;
+  height: 600px;
+  text-align: center;
+}
+
+#sale-fever {
+  font-size: large;
+}
+
+#sell-off {
+  color: rgb(228, 3, 198);
+}
+
+#sell {
+  background-color: rgb(228, 3, 198);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#sell-promo {
+  font-size: medium;
+}
+
+#img-summer {
+  width: 450px;
+  height: 400px;
+}
+
+.card-body {
+  width: 150px !important;
+  height: 100px !important;
+  border-radius: 5px;
+  text-align: center;
+  border: 10px;
+}
+
+.img {
+  border-radius: 5px;
+  height: 120px !important;
+  width: 150px !important;
+  margin: auto;
+  padding: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#productPrice {
+  /* color: gray; */
+}
+
+#coupon-section {
+  width: 300px;
+  border-radius: 8px;
+  padding: 5px;
+  padding-bottom: 10px;
+  height: 100px;
+  margin-top: 80px;
+  background-color: rgb(245, 245, 245);
+}
+
+p {
+  color: gray;
+  margin-bottom: 1px !important;
+  padding-bottom: 5px;
+}
+#btn-Coupon {
+  border: none;
+  background-color: rgb(240, 79, 218);
+  color: rgb(255, 251, 243);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+input {
+  border: none;
+  padding: 5px;
+}
+
+#coupon-section-total {
+  border-radius: 8px;
+  padding: 5px;
+  padding-bottom: 10px;
+  height: 80px;
+  margin-top: 80px;
+  background-color: rgb(250, 248, 248);
+  height: auto;
+}
+
+#btn-Purchase {
+  margin-left: 25px;
+  background-color: rgb(240, 79, 218);
+  color: rgb(255, 251, 243);
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  padding: 8px 50px;
+  text-align: center;
+}
+
+#cong-img {
+  margin-top: 15px;
+  margin-left: 200px;
+  height: 80px;
+  width: 80px;
+}
+
+#cong-body {
+  margin-left: 150px;
+}
+
+#btn-gohome {
+  margin-right: 150px;
+  margin-left: 5px;
+  background-color: rgb(240, 79, 218);
+  color: rgb(255, 251, 243);
+  border-radius: 8px;
+  border: none;
+  padding: 8px 40px;
+  text-align: center;
+}
+.congra-title {
+  /* --bs-border-color: white !important;
+  --bs-border: none !important; */
+  border: none !important;
+  border-color: rgb(247, 244, 244) !important;
+}
+
+.cong-section {
+  /* display: none; */
+  border-radius: 8px;
+  padding: 5px;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#addedItems {
+  font-weight: bold;
+}
