@@ -24,7 +24,7 @@ function App() {
 
       <HeaderSection></HeaderSection>
 
-      <div className="d-flex container">
+      <div className="d-flex container" id="item-section">
         <ItemsSection
           setTotalPrice={setTotalPrice}
           setAddList={setAddList}

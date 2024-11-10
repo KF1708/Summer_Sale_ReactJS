@@ -23,8 +23,8 @@ export const CouponSection = ({
 
   const handelApplyCoupon = () => {
     if (coupon === "SELL200") {
-      setDiscountPrice(totalPrice * 0.2);
-      setNewPrice(totalPrice - totalPrice * 0.2);
+      setDiscountPrice(Math.round(totalPrice * 0.2));
+      setNewPrice(Math.round(totalPrice - totalPrice * 0.2));
     }
   };
 
@@ -49,24 +49,32 @@ export const CouponSection = ({
       <div id="coupon-section-total" className="">
         <ol id="addItems">
           {addList.map((name, i) => (
-            <li key={i}>{name}</li>
+            <li key={i} style={{ fontWeight: "bold" }}>
+              {name}
+            </li>
           ))}
         </ol>
         <hr></hr>
         <h5>
-          Total Price:<span id="totalItemPrice">${totalPrice}</span>
+          Total Price:<span id="totalItemPrice">${totalPrice}.00</span>
         </h5>
         <h5>
-          Discount:<span id="discountTotal">${discountPrice}</span>
+          Discount:<span id="discountTotal">${discountPrice}.00</span>
         </h5>
         <h5>
-          Total :<span id="total">${newPrice}</span>
+          Total :<span id="total">${newPrice}.00</span>
         </h5>
         <button id="btn-Purchase" onClick={handleShow}>
           Make Purchase
         </button>
 
-        <Modal className=" cong-section " show={show} onHide={handleClose}>
+        <Modal
+          size="sm"
+          className=" cong-section "
+          centered
+          show={show}
+          onHide={handleClose}
+        >
           <img
             src="../public/images/tick 1.png"
             className=""

@@ -19,8 +19,14 @@ body {
 }
 
 #item-section {
+  gap: 50px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
+.items-space {
+  margin: 15px;
+}
 #header {
   background-color: beige;
   height: 600px;
@@ -54,6 +60,7 @@ body {
 .card-body {
   width: 150px !important;
   height: 100px !important;
+
   border-radius: 5px;
   text-align: center;
   border: 10px;
@@ -79,7 +86,7 @@ body {
   padding: 5px;
   padding-bottom: 10px;
   height: 100px;
-  margin-top: 80px;
+  margin-top: 55px;
   background-color: rgb(245, 245, 245);
 }
 
@@ -124,24 +131,24 @@ input {
 }
 
 #cong-img {
-  margin-top: 15px;
-  margin-left: 200px;
+  margin-top: 20px;
+  margin-left: 105px;
   height: 80px;
   width: 80px;
 }
 
 #cong-body {
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 #btn-gohome {
-  margin-right: 150px;
-  margin-left: 5px;
+  margin-right: 67px;
+  margin-bottom: 7px;
   background-color: rgb(240, 79, 218);
   color: rgb(255, 251, 243);
   border-radius: 8px;
   border: none;
-  padding: 8px 40px;
+  padding: 8px 30px;
   text-align: center;
 }
 .congra-title {
@@ -154,7 +161,7 @@ input {
 .cong-section {
   /* display: none; */
   border-radius: 8px;
-  padding: 5px;
+  /* padding: 5px; */
   height: 100% !important;
   width: 100% !important;
 }

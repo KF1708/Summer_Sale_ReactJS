@@ -16,18 +16,23 @@ export const ItemsSection = ({ setTotalPrice, setAddList }) => {
   console.log(items);
 
   return (
-    <div className="">
-      <div id="item-section">
-        <h1>Kitchenware</h1>
-
-        <div className=" row justify-content-center gap-3">
-          {items.map((item, index) => (
-            <ItemsList
-              key={index}
-              item={item}
-              setTotalPrice={setTotalPrice}
-              setAddList={setAddList}
-            ></ItemsList>
+    <div>
+      <div>
+        <div>
+          {items.map((section) => (
+            <div key={section.id} className="items-space">
+              <h3>{section.title}</h3>
+              <div className=" row justify-content-center gap-4 ">
+                {section.product.map((product) => (
+                  <ItemsList
+                    key={product.id}
+                    item={product}
+                    setTotalPrice={setTotalPrice}
+                    setAddList={setAddList}
+                  ></ItemsList>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>

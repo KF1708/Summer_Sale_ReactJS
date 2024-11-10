@@ -1,0 +1,94 @@
+{
+  "hash": "dc0cfb99",
+  "configHash": "f9901a30",
+  "lockfileHash": "0dfc73b1",
+  "browserHash": "4dcf3f28",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "9784d83b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d99cea84",
+      "needsInterop": true
+    },
+    "react-bootstrap/Button": {
+      "src": "../../node_modules/react-bootstrap/esm/Button.js",
+      "file": "react-bootstrap_Button.js",
+      "fileHash": "d3bbb7c3",
+      "needsInterop": false
+    },
+    "react-bootstrap/Modal": {
+      "src": "../../node_modules/react-bootstrap/esm/Modal.js",
+      "file": "react-bootstrap_Modal.js",
+      "fileHash": "91acd7dd",
+      "needsInterop": false
+    },
+    "react-bootstrap/Row": {
+      "src": "../../node_modules/react-bootstrap/esm/Row.js",
+      "file": "react-bootstrap_Row.js",
+      "fileHash": "554e0930",
+      "needsInterop": false
+    },
+    "react-bootstrap/Col": {
+      "src": "../../node_modules/react-bootstrap/esm/Col.js",
+      "file": "react-bootstrap_Col.js",
+      "fileHash": "532e3ecd",
+      "needsInterop": false
+    },
+    "react-bootstrap": {
+      "src": "../../node_modules/react-bootstrap/esm/index.js",
+      "file": "react-bootstrap.js",
+      "fileHash": "c43eb07c",
+      "needsInterop": false
+    },
+    "react-rating": {
+      "src": "../../node_modules/react-rating/lib/react-rating.esm.js",
+      "file": "react-rating.js",
+      "fileHash": "af9217a9",
+      "needsInterop": false
+    },
+    "react-icons/ci": {
+      "src": "../../node_modules/react-icons/ci/index.mjs",
+      "file": "react-icons_ci.js",
+      "fileHash": "eef8f017",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "a391b53d",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-YS7ZXTDS": {
+      "file": "chunk-YS7ZXTDS.js"
+    },
+    "chunk-JWQU3E27": {
+      "file": "chunk-JWQU3E27.js"
+    },
+    "chunk-X4GX3IIK": {
+      "file": "chunk-X4GX3IIK.js"
+    },
+    "chunk-QPG7G3M7": {
+      "file": "chunk-QPG7G3M7.js"
+    },
+    "chunk-U6SJT6FA": {
+      "file": "chunk-U6SJT6FA.js"
+    },
+    "chunk-UNG3CBEU": {
+      "file": "chunk-UNG3CBEU.js"
+    },
+    "chunk-RRDTMY6V": {
+      "file": "chunk-RRDTMY6V.js"
+    },
+    "chunk-UTEJFLXC": {
+      "file": "chunk-UTEJFLXC.js"
+    }
+  }
+}
