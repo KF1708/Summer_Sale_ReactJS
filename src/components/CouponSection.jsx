@@ -9,12 +9,13 @@ export const CouponSection = ({
 }) => {
   const [coupon, setCoupon] = useState();
   const [newPrice, setNewPrice] = useState(totalPrice);
-  const [discountPrice, setDiscountPrice] = useState();
+  const [discountPrice, setDiscountPrice] = useState(0);
 
   const [show, setShow] = useState(false);
 
   const handleClose = () => {
     setShow(false);
+    setNewPrice(0);
     setTotalPrice(0);
     setAddList([]);
     setDiscountPrice(0);
@@ -42,7 +43,11 @@ export const CouponSection = ({
           value={coupon}
           onChange={handelChange}
         />
-        <button id="btn-Coupon" onClick={handelApplyCoupon}>
+        <button
+          id="btn-Coupon"
+          onClick={handelApplyCoupon}
+          disabled={totalPrice < 200}
+        >
           Apply
         </button>
       </div>
@@ -62,9 +67,13 @@ export const CouponSection = ({
           Discount:<span id="discountTotal">${discountPrice}.00</span>
         </h5>
         <h5>
-          Total :<span id="total">${newPrice}.00</span>
+          Total :<span id="total">${totalPrice - discountPrice}.00</span>
         </h5>
-        <button id="btn-Purchase" onClick={handleShow}>
+        <button
+          id="btn-Purchase"
+          onClick={handleShow}
+          disabled={addList.length === 0}
+        >
           Make Purchase
         </button>
 
