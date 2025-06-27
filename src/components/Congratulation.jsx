@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 export const Congratulation = () => {
@@ -10,7 +9,7 @@ export const Congratulation = () => {
         style={{ display: "block", position: "initial" }}
       >
         <img
-          src="../public/images/tick 1.png"
+          src="/images/tick 1.png"
           className="card-img-top"
           alt="Congratulation image"
           id="cong-img"

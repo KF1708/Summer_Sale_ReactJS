@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable react/prop-types */
+import { useEffect, useState } from "react";
 import ItemsList from "./ItemsList";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 export const ItemsSection = ({ setTotalPrice, setAddList }) => {
   const [items, setItems] = useState([]);

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const HeaderSection = () => {
   return (
     <div>
@@ -18,11 +16,7 @@ export const HeaderSection = () => {
           </h3>
         </div>
         <div>
-          <img
-            src="../public/images/Summer 1.png"
-            alt="Summer Sale"
-            id="img-summer"
-          />
+          <img src="/images/Summer 1.png" alt="Summer Sale" id="img-summer" />
         </div>
       </div>
     </div>

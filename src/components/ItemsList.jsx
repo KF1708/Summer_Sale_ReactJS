@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import Rating from "react-rating";
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
@@ -10,6 +11,7 @@ export const ItemsList = ({ item, setTotalPrice, setAddList }) => {
     setTotalPrice((prev) => prev + price);
     setAddList((prev) => [...prev, name]);
   };
+  console.log(img, rating);
 
   return (
     <div
